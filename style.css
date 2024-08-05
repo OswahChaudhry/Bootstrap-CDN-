@@ -1,0 +1,15 @@
+/* style.css */
+
+/* Example custom styles */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .jumbotron {
+    background-color: #f8f9fa;
+    margin-bottom: 0;
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+  }

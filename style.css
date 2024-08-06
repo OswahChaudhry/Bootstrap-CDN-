@@ -1,15 +1,38 @@
 /* style.css */
 
-/* Example custom styles */
+/* Default (Light Mode) Styles */
 body {
-    font-family: Arial, sans-serif;
-  }
-  
-  .jumbotron {
-    background-color: #f8f9fa;
-    margin-bottom: 0;
-  }
-  
-  .navbar-brand {
-    font-weight: bold;
-  }
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.navbar-light {
+  background-color: #f8f9fa;
+}
+
+.jumbotron {
+  background-color: #f8f9fa;
+}
+
+footer {
+  background-color: #f8f9fa;
+}
+
+/* Dark Mode Styles */
+body.dark-mode {
+  background-color: #1e1e1e;
+  color: #ffffff;
+}
+
+.navbar-light.dark-mode {
+  background-color: #333333;
+}
+
+.jumbotron.dark-mode {
+  background-color: #333333;
+}
+
+footer.dark-mode {
+  background-color: #333333;
+}
